@@ -1,0 +1,22 @@
+{
+  "name": "react-analog-clock",
+  "version": "1.0.0",
+  "description": "analog clock design with tailwind css",
+  "main": "src/Clock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immehedy/react-analog-clock.git"
+  },
+  "author": "immehedy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immehedy/react-analog-clock/issues"
+  },
+  "homepage": "https://github.com/immehedy/react-analog-clock#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}

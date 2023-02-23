@@ -1,0 +1,147 @@
+.clock {
+  width:350px;
+  height: 350px;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2); */
+  font-size: 24px;
+  /* color: #444; */
+  text-align: center;
+}
+
+.clock::after {
+  background: transparent;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  position: absolute;
+  font-size: 22px;
+  color: #fff;
+  top: 65%;
+  left: 38%;
+  transform-origin: bottom;
+
+}
+
+.hour_hand {
+  position: absolute;
+  width: 6px;
+  height: 70px;
+  background: #fff;
+  top: 31%;
+  left: 50%;
+  transform-origin: bottom;
+}
+
+.min_hand {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background: #fff;
+  top: 23%;
+  left: 50%;
+  transform-origin: bottom;
+}
+
+.sec_hand {
+  position: absolute;
+  width: 2px;
+  height: 130px;
+  background: #fff;
+  top: 14.5%;
+  left: 51%;
+  transform-origin: bottom;
+}
+
+.clock span {
+  position: absolute;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+}
+
+.twelve {
+  top: 10px;
+  left: 50%;
+}
+
+.one {
+  top: 10%;
+  right: 26%;
+  transform: rotate(30deg)
+}
+
+.eleven {
+  top: 10%;
+  left: 26%;
+  transform: rotate(-30deg);
+}
+
+.two {
+  top: 25%;
+  right: 10%;
+  transform: rotate(50deg);
+}
+
+.three {
+  right: 10px;
+  top: 46%;
+  transform: rotate(90deg);
+}
+
+.four {
+  right: 30px;
+  top: 67%;
+  transform: rotate(-50deg);
+}
+
+.five {
+  right: 78px;
+  top: 80%;
+  transform: rotate(-30deg);
+}
+
+.six {
+  bottom: 10px;
+  left: 50%;
+}
+
+.seven {
+  left: 80px;
+  top: 82%;
+  transform: rotate(30deg);
+}
+
+.eight {
+  left: 30px;
+  top: 67%;
+  transform: rotate(50deg);
+}
+
+.nine {
+  left: 10px;
+  top: 46%;
+  transform: rotate(90deg);
+}
+
+.ten {
+  top: 25%;
+  left: 10%;
+  transform: rotate(-50deg);
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+  color: #fff;
+  font-size: 35px;
+}
